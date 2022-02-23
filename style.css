@@ -1,0 +1,106 @@
+html,
+body {
+    background: rgb(32, 30, 30);
+    background: linear-gradient(120deg, rgb(32, 30, 30) 0%, rgb(32, 30, 30) 100%);
+}
+
+.seller {
+    font-family: monospace;
+    color: #ff0800;
+    cursor: text;
+}
+
+.holder {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.center {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.textiboi {
+    text-align: center;
+    color: #5ec224;
+    font-family: monospace;
+}
+
+.textiboi:hover {
+    color: white;
+}
+
+.header {
+    text-align: center;
+    color: #7041c7;
+    font-family: monospace;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.hoverr:hover a {
+    color: white;
+}
+
+.header:hover {
+    text-align: center;
+    color: white;
+    font-family: monospace;
+}
+
+.container:hover .seller {
+    color: white;
+}
+
+.container:hover a {
+    color: white;
+}
+
+.a {
+    text-align: center;
+    color: white;
+    font-family: monospace;
+}
+
+.header:hover a {
+    text-align: center;
+    color: white;
+    font-family: monospace;
+}
+
+.icon {
+    color: #7041c7;
+}
+
+.icon i {
+    font-size: 80px;
+}
+
+.container {
+    text-align: center;
+    margin: 5px 20px;
+    float: left;
+}
+
+a {
+    color: #7041c7;
+}
+
+.container:hover .icon {
+    color: var(--icon-color);
+    font-size: 20px;
+}
+
+.container:hover .seller {
+    color: white;
+}
+
+.container:hover a {
+    color: white;
+}
