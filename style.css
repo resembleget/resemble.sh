@@ -31,7 +31,7 @@ body {
 }
 
 .textiboi:hover {
-    color: white;
+    color: rgb(255, 0, 0);
 }
 
 .header {
@@ -45,32 +45,32 @@ body {
 }
 
 .hoverr:hover a {
-    color: white;
+    color: rgb(255, 0, 0);
 }
 
 .header:hover {
     text-align: center;
-    color: white;
+    color: rgb(255, 0, 0);
     font-family: monospace;
 }
 
 .container:hover .seller {
-    color: white;
+    color: rgb(255, 0, 0);
 }
 
 .container:hover a {
-    color: white;
+    color: rgb(255, 0, 0);
 }
 
 .a {
     text-align: center;
-    color: white;
+    color: rgb(255, 0, 0);
     font-family: monospace;
 }
 
 .header:hover a {
     text-align: center;
-    color: white;
+    color: rgb(255, 0, 0);
     font-family: monospace;
 }
 
